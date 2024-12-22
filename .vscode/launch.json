@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Samsung Phone",
+            "program": "lib/main.dart",
+            "deviceId": "SM A528B",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Android Emulator",
+            "program": "lib/main.dart",
+            "deviceId": "emulator-5554",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Chrome Browser CanvasKit",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": ["--web-port=8081", "--web-renderer=canvaskit"]
+        },
+        {
+            "name": "Chrome Browser HTML",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": ["--web-port=8080", "--web-renderer=html"]
+        }
+    ]
+}
